@@ -26,6 +26,12 @@ Develop a Python program to withdraw money from an account with an initial balan
 7. Display the result and remaining balance.
 8. Stop.
 
+
+## Flowchart
+ <img width="1215" height="1295" alt="image" src="https://github.com/user-attachments/assets/7660f083-00b8-4f95-86e2-69ba41b60869" />
+
+
+
 ## Pseudocode
 ```text
 START
@@ -39,7 +45,7 @@ ELSE IF withdraw > balance
 ELSE
     balance = balance - withdraw
     PRINT "Withdrawal successful"
-    PRINT balance
+    PRINT "Remaining balance:", balance
 END IF
 
 STOP
@@ -47,12 +53,12 @@ STOP
 
 ## Test Cases
 
-| Withdrawal Amount | Expected Output |
-|---:|---|
-| 2000 | Remaining balance: 8000 |
-| 12000 | Insufficient balance |
-| 0 | Invalid withdrawal amount |
-| -500 | Invalid withdrawal amount |
+| Withdrawal Amount | Expected Output                                |
+|---:               |---                                             |
+|              2000 | Withdrawal successful; Remaining balance: 8000 |
+|             12000 | Insufficient balance                           |
+|                 0 | Invalid withdrawal amount                      |
+|              -500 | Invalid withdrawal amount                      |
 
 ## Conclusion
 This program demonstrates the use of Python variables, arithmetic operations, and conditional statements to simulate a bank withdrawal system.
