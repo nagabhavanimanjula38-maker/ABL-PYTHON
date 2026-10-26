@@ -1,9 +1,15 @@
 
-# withdraw balance
-balance = 10000
-withdraw = int(input('Enter withdraw amount: '))
+# Task 1: Withdraw Balance
 
-if withdraw <= balance and withdraw > 0:
-    print("Success! balance remaining:", balance - withdraw)
+balance = 10000
+
+withdraw = int(input("Enter withdrawal amount: "))
+
+if withdraw <= 0:
+    print("Invalid withdrawal amount!")
+elif withdraw > balance:
+    print("Insufficient balance!")
 else:
-    print("No Balance!")
+    balance = balance - withdraw
+    print("Withdrawal successful!")
+    print("Remaining balance:", balance)
