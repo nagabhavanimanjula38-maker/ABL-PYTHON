@@ -54,6 +54,8 @@ The program accepts the number of classes attended and the total number of class
 ## 7. Flowchart
 
 The flowchart represents the sequence of steps followed by the Attendance Eligibility Checker.
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/bdf78db8-348a-49cb-bbc8-a30b05307932" />
+
 
 
 
