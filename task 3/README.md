@@ -30,7 +30,7 @@ Develop a Python program to calculate a student's attendance percentage and dete
 9. Stop.
 
 ## Flowchart
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/28620230-577d-404a-80f3-1995bf0fba25" />
+<img width="1006" height="1458" alt="mermaid-diagram (4)" src="https://github.com/user-attachments/assets/e0337c38-f1ce-45ad-87db-4be8f1f01b47" />
 
 
 ## Flowchart
