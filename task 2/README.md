@@ -27,7 +27,7 @@ Develop a Python program to calculate an electricity bill using the number of un
 8. Stop.
 
 ## Flowchart
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8cc7a4dd-578c-473b-b2ea-c5314d445fd8" />
+<img width="904" height="1082" alt="mermaid-diagram (3)" src="https://github.com/user-attachments/assets/c7296c6a-9c34-4fe1-9028-78a6b3515b62" />
 
 
 ## Pseudocode
