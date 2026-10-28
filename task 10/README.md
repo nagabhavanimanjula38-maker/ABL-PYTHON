@@ -51,6 +51,7 @@ The program uses nested `for` loops to print numbers from 1 up to the current ro
 9. Stop.
 
 ## 7. Flowchart
+<img width="1182" height="1804" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/f51f3e7f-752c-44cb-8abc-1a6ca80061e7" />
 
 
 ## 8. Pseudocode
