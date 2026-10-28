@@ -27,8 +27,7 @@ Develop a Python program to calculate traffic violation fines based on the type 
 10. Stop the program.
 
 ## 5. Flowchart
-
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/f1952c02-b457-406b-abf9-d8ac267955cc" />
+<img width="1820" height="1596" alt="mermaid-diagram (6)" src="https://github.com/user-attachments/assets/4775acca-5878-4f2b-8ebd-1d25da1bac3b" />
 
 
 ## 6. Pseudocode
