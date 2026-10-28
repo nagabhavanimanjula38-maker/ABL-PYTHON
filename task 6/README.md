@@ -1,144 +1,139 @@
-# Attendance Eligibility Checker
+# Task 6: Student Email Validation
 
-## 1. Description
+## 1. Aim
 
-The Attendance Eligibility Checker is a simple Python program that calculates a student's attendance percentage and determines whether the student is eligible to attend examinations based on the minimum attendance requirement of 75%.
+To develop a Python program to validate a student's email address using string operations and conditional statements.
 
-The program accepts the number of classes attended and the total number of classes as input. It validates the attendance details, calculates the attendance percentage, and displays the eligibility result.
+## 2. Objective
 
-## 2. Objectives
+The objective of this program is to check whether a student's email address follows a basic email format. The program verifies the presence of exactly one `@` symbol, a non-empty username, and a domain containing a dot.
 
-- To calculate a student's attendance percentage.
-- To determine examination eligibility based on attendance.
-- To understand conditional statements in Python.
-- To validate user inputs.
+## 3. Problem Statement
 
-## 3. Features
+Write a Python program that accepts a student's email address as input and checks its basic format. If the email satisfies the specified conditions, display **"Valid email format"**; otherwise, display **"Invalid email format"**.
 
-- Accepts the number of classes attended and total classes.
-- Calculates attendance percentage.
-- Checks eligibility based on the 75% attendance requirement.
-- Validates attendance details.
-- Displays appropriate messages for valid and invalid inputs.
+## 4. Concepts Used
 
-## 4. Technologies Used
+- Variables and strings
+- Input and output statements
+- Conditional statements (`if`, `else`)
+- String methods such as `count()`, `split()`, and `startswith()`
+- Logical operators
+- Nested conditional statements
 
-- **Programming Language:** Python 3
-- **IDE:** PyCharm
-- **Concepts:** Input/output statements, arithmetic operators, conditional statements, and input validation.
+## 5. Algorithm
 
-## 5. How It Works
+1. Start the program.
+2. Read the student's email address.
+3. Check whether the email contains exactly one `@` symbol.
+4. If not, display "Invalid email format".
+5. Otherwise, split the email into username and domain parts.
+6. Check whether the username is not empty and the domain contains a dot.
+7. Check whether the domain starts or ends with a dot.
+8. If all the required conditions are satisfied, display "Valid email format".
+9. Otherwise, display "Invalid email format".
+10. Stop the program.
 
-1. The user enters the number of classes attended.
-2. The user enters the total number of classes.
-3. The program validates the attendance details.
-4. If the details are valid, the program calculates the attendance percentage.
-5. It checks whether the attendance percentage is at least 75%.
-6. Finally, it displays the eligibility result.
+## 6. Pseudocode
 
-## 6. Algorithm
-
-1. Start.
-2. Read the number of classes attended.
-3. Read the total number of classes.
-4. Check whether the attendance details are valid.
-5. If the details are invalid, display "Invalid attendance details!".
-6. Otherwise, calculate the attendance percentage using the formula:
-
-   **Attendance Percentage = (Attended Classes / Total Classes) × 100**
-
-7. If the attendance percentage is greater than or equal to 75%, display "Eligible for examinations."
-8. Otherwise, display "Not eligible for examinations."
-9. Stop.
-
-## 7. Flowchart
-
-The flowchart represents the sequence of steps followed by the Attendance Eligibility Checker.
-
-
-
-![Attendance Eligibility Checker Flowchart](flowchart.png)
-
-## 8. Formula Used
-
-**Attendance Percentage = (Number of Classes Attended / Total Number of Classes) × 100**
-
-**Eligibility Criteria:**
-- Attendance percentage of 75% or above: Eligible.
-- Attendance percentage below 75%: Not eligible.
-- Invalid attendance details: Error message displayed.
-
-## 9. Sample Input and Output
-
-### Example 1: Eligible Student
-
-**Input:**
 ```text
-Enter attended classes: 80
-Enter total classes: 100
+START
+    INPUT email
+
+    IF email contains exactly one "@"
+        SPLIT email into parts
+
+        IF username is not empty AND
+           domain contains "."
+            
+            IF domain does not start or end with "."
+                DISPLAY "Valid email format"
+            ELSE
+                DISPLAY "Invalid email format"
+            END IF
+
+        ELSE
+            DISPLAY "Invalid email format"
+        END IF
+
+    ELSE
+        DISPLAY "Invalid email format"
+    END IF
+STOP
 ```
 
-**Output:**
-```text
-Attendance Percentage: 80.0%
-Eligible for examinations.
+## 7. Python Program
+
+```python
+# Task 6: Student Email Validation
+
+email = input("Enter student email: ")
+
+if email.count("@") == 1:
+    parts = email.split("@")
+
+    if parts[0] != "" and "." in parts[1]:
+        if not parts[1].startswith(".") and not parts[1].endswith("."):
+            print("Valid email format")
+        else:
+            print("Invalid email format")
+    else:
+        print("Invalid email format")
+else:
+    print("Invalid email format")
 ```
 
-### Example 2: Not Eligible Student
+## 8. Sample Output
 
-**Input:**
+### Example 1: Valid Email
+
 ```text
-Enter attended classes: 60
-Enter total classes: 100
+Enter student email: student@gmail.com
+Valid email format
 ```
 
-**Output:**
+### Example 2: Invalid Email
+
 ```text
-Attendance Percentage: 60.0%
-Not eligible for examinations.
+Enter student email: studentgmail.com
+Invalid email format
 ```
 
-### Example 3: Invalid Input
+### Example 3: Invalid Email
 
-**Input:**
 ```text
-Enter attended classes: 110
-Enter total classes: 100
+Enter student email: @gmail.com
+Invalid email format
 ```
 
-**Output:**
+### Example 4: Invalid Email
+
 ```text
-Invalid attendance details!
+Enter student email: student@.com
+Invalid email format
 ```
 
-## 10. How to Run
+## 9. Flowchart
 
-1. Install Python 3 on your computer.
-2. Download or clone this repository.
-3. Open the project in PyCharm or another Python editor.
-4. Open the Python program file.
-5. Run the program.
-6. Enter the requested attendance details.
-7. View the attendance percentage and eligibility result.
+```mermaid
+flowchart TD
+    A([Start]) --> B[/Input student email/]
+    B --> C{Exactly one @ symbol?}
+    C -- No --> D[/Display Invalid email format/]
+    C -- Yes --> E[Split email into parts]
+    E --> F{Username not empty and domain contains a dot?}
+    F -- No --> D
+    F -- Yes --> G{Domain starts or ends with a dot?}
+    G -- Yes --> D
+    G -- No --> H[/Display Valid email format/]
+    D --> I([Stop])
+    H --> I
+```
 
-## 11. Learning Outcomes
+## 10. Result
 
-Through this project, I learned:
+The program successfully checks a student's email address against the specified basic format conditions. It displays "Valid email format" when the conditions are satisfied and "Invalid email format" when any condition fails.
 
-- How to accept user input in Python.
-- How to perform arithmetic calculations.
-- How to use `if` and `else` statements.
-- How to validate user inputs.
-- How to apply programming logic to solve a simple real-world problem.
+## 11. Conclusion
 
-## 12. Conclusion
-
-The Attendance Eligibility Checker is a beginner-friendly Python project that calculates a student's attendance percentage and determines examination eligibility. This project demonstrates the practical application of input/output statements, arithmetic operations, conditional statements, and input validation. It helped me understand the fundamentals of Python programming and how to use them to solve a real-world problem.
-
-## 13. Author
-
-First-Year B.Tech Student
-
-## 14. License
-
-This project is created for educational purposes.
+This task demonstrates how Python string methods and conditional statements can be used to perform basic email format validation. It helps develop logical thinking and an understanding of nested conditions. This program performs a basic format check and does not guarantee that an email address exists or is fully valid according to all email standards.
