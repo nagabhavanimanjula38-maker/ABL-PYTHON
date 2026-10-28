@@ -28,8 +28,7 @@ Develop a Python program to withdraw money from an account with an initial balan
 
 
 ## Flowchart
- <img width="1215" height="1295" alt="image" src="https://github.com/user-attachments/assets/7660f083-00b8-4f95-86e2-69ba41b60869" />
-
+<img width="1078" height="1314" alt="mermaid-diagram (2)" src="https://github.com/user-attachments/assets/fd46a5d0-6659-4360-84cf-56f648bc5d22" />
 
 
 ## Pseudocode
