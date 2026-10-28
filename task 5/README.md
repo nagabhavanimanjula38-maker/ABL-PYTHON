@@ -39,8 +39,7 @@ Develop a Python program to process a list of transaction IDs, detect repeated t
 11. Stop.
 
 ## Flowchart
-
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f45ecfa6-dee3-4ffb-b8a1-03839b952b35" />
+<img width="1788" height="2030" alt="mermaid-diagram (8)" src="https://github.com/user-attachments/assets/a540f9b0-fae9-4c68-8b2a-7425e0a41502" />
 
 
 ## Pseudocode
