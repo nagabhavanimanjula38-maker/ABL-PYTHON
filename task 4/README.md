@@ -39,8 +39,7 @@ Develop a Python program to validate a password and classify its strength as Wea
 11. Stop.
 
 ## Flowchart
-
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ed00209b-d2f2-466f-a1b9-b2a4a9e14108" />
+<img width="1432" height="2010" alt="mermaid-diagram (5)" src="https://github.com/user-attachments/assets/0184c76f-3489-49dc-8352-4146694079e2" />
 
 
 ## Pseudocode
