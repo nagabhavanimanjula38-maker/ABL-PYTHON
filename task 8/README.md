@@ -26,7 +26,7 @@ Write a Python program to accept marks in three subjects, validate the marks, ca
 8. Stop.
 
 ## 5. Flowchart
-<img width="1175" height="1338" alt="image" src="https://github.com/user-attachments/assets/d9c56df3-7b19-4ffa-91b3-633ec08d91b1" />
+<img width="1158" height="1404" alt="mermaid-diagram (7)" src="https://github.com/user-attachments/assets/22af6bdf-e12b-4f10-81e2-faccc7bc1ceb" />
 
 
 ## 6. Pseudocode
