@@ -54,6 +54,7 @@ The program accepts the parking duration as input, validates the entered value, 
 9. Stop.
 
 ## 7. Flowchart
+<img width="1094" height="1404" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/dc99f35f-da77-4933-8f74-281897956772" />
 
 
 ## 8. Pseudocode
