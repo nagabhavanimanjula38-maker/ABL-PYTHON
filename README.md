@@ -1,16 +1,23 @@
-                                          Student Information
-Name: Manjula Naga Bhavani
-Roll Number: 26001318
-Branch: CSE(AI & ML)
-Section: 7
-       Tasks Names
-Task-1: Withdraw Balance
-Task-2: Electricity Bill
-Task-3: Attendence Eligibility
-Task-4: Password Creation
-Task-5: Repeated Transaction Detection
-Task-6: Student Email Validation
-Task-7: Trafic Violation Penalty Calculator
-Task-8: Student Marks Analysis 
-Task-9: Parking Fee Calculator
-Task-10: Number Pattern
+<h2 align="center">Student Information</h2>
+
+<p>
+<b>Name:</b> Manjula Naga Bhavani<br>
+<b>Roll Number:</b> 26001318<br>
+<b>Branch:</b> CSE (AI & ML)<br>
+<b>Section:</b> 7<br>
+</p>
+
+<h2 align="center">Tasks</h2>
+
+<p>
+<b>Task-1:</b> Withdraw Balance<br>
+<b>Task-2:</b> Electricity Bill<br>
+<b>Task-3:</b> Attendance Eligibility<br>
+<b>Task-4:</b> Password Creation<br>
+<b>Task-5:</b> Repeated Transaction Detection<br>
+<b>Task-6:</b> Student Email Validation<br>
+<b>Task-7:</b> Traffic Violation Penalty Calculator<br>
+<b>Task-8:</b> Student Marks Analysis<br>
+<b>Task-9:</b> Parking Fee Calculator<br>
+<b>Task-10:</b> Number Pattern<br>
+</p>
